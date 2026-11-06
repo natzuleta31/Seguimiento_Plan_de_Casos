@@ -1,0 +1,6 @@
+[build]
+  command = "python scripts/build_frontend.py"
+  publish = "dist"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
